@@ -5,4 +5,4 @@
 ## method
 ## results
 ## discussion
-## and conclusions.
+## conclusions
