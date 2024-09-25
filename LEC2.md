@@ -38,3 +38,8 @@ large IFOV - large signal-to-noise ratio 需要牺牲了空间分辨率以提升
 2. Image Resolutions
    - Spatial resolution
    - Temporal resolution
+3. Radiometric resolution 辐射分辨率 : The ability of the sensor to differentiate very slight variations in brightness/energy.
+4. Trade offs between image resolutions: It is very difficult to obtain extremely high spectral, spatial, temporal, and radiometric resolution at the same time.
+
+## References
+- https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/LSDS-1574_L8_Data_Users_Handbook-v5.0.pdf
