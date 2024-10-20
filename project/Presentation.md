@@ -5,17 +5,16 @@
 
 ## Remote sensing-based evolutionary analysis of park vegetation - A case study of Shenzhen City
 
-### 1. 研究意义背景
+### 1. 研究意义背景（1页 Feng）
 
-### 2. 文献综述
+### 2. 文献综述（2页 Liang）
 
-### 3. 数据
+### 3. 数据 & 研究范围（1页）（Zeng & Zhou）
 
 - OSM 公园边界数据（Zeng）（2024）筛选大小公园
   - 公园分类
 - 30m 分辨率的地表覆盖 (https://data.casearth.cn/dataset/5fbc7904819aec1ea2dd7061) 2000 - 2020 (间隔5年)
 - Landsat 遥感影像数据 
-
 
 ｜ name | type | time | resolution | source |
 | --- | --- | --- | --- | --- |
@@ -24,12 +23,7 @@
 | Landsat | raster | 2000 - 2020 | 30m | https://earthexplorer.usgs.gov/ |
 
 
-### 4. 研究范围
-1. 时间范围： 2015 - 2020 年
-2. 
-
-
-### 4. 研究方法 & 研究计划
+### 4. 研究方法 & 研究计划（1页）（Dong）
 1. 植被面积变化 LandSat + GLC_FCS30-2020
 2. NDVI 变化分析（现成的）
 3. 提取物候信息，LandSat + GLC_FCS30-2020
@@ -39,6 +33,8 @@
    2. 根据周边的建筑物 城市公园和自然公园 
    3. 人口密度 
 
+### Report （Li）
+### Docs & PPT（Yao & Pan） 
 ## References
 1. Examining Vegetation Change and Associated Spatial Patterns in Wuyishan National Park at Different Protection Levels : https://www.webofscience.com/wos/woscc/full-record/WOS:000781585600001
 2. 2013~2023深圳湾红树林的分布变化 : https://www.hanspub.org/journal/paperinformation?paperid=95206
