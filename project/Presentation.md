@@ -1,40 +1,39 @@
-# Notice of Preliminary Group Project Presentation
+# Group Project Presentation
+> Notice of Preliminary  :
 > - A 3-minute brief introduction to the project topic, literature investigation, and implementation plan, presented with ~5 slides.
 > - Time: Oct 23, 2024
 > - Send slides to LIU Xindi, Cindy at xindi1025.liu@connect.polyu.hk before 2:00PM on Oct 23, 2024
 
 ## Remote sensing-based evolutionary analysis of park vegetation - A case study of Shenzhen City
 
-### 1. 研究意义背景（1页 Feng）
+### 1. 研究意义背景 | Research Significance & Background （1页 Feng）
 
-### 2. 文献综述（2页 Liang）
+### 2. 文献综述 | Literature Review （2页 Liang）
 
-### 3. 数据 & 研究范围（1页）（Zeng & Zhou）
+### 3. 数据 & 研究范围 | Data & Study Areab （1页）（Zeng & Zhou）
 
-- OSM 公园边界数据（Zeng）（2024）筛选大小公园
-  - 公园分类
-- 30m 分辨率的地表覆盖 (https://data.casearth.cn/dataset/5fbc7904819aec1ea2dd7061) 2000 - 2020 (间隔5年)
-- Landsat 遥感影像数据 
-
-｜ name | type | time | resolution | source |
-| --- | --- | --- | --- | --- |
-| OSM | vector | 2024 | 1m | Zeng |
-| 地表覆盖分类(GLC_FCS30-2020) | raster | 2000 - 2020(+5) | 30m | https://data.casearth.cn/dataset/5fbc7904819aec1ea2dd7061 |
-| Landsat | raster | 2000 - 2020 | 30m | https://earthexplorer.usgs.gov/ |
+   | name | type | time | resolution | source |
+   | --- | --- | --- | --- | --- |
+   | OSM | vector | 2024 | 1m | Zeng |
+   | 地表覆盖分类(GLC_FCS30-2020) | raster | 2000 - 2020(+5) | 30m | https://data.casearth.cn/dataset/5fbc7904819aec1ea2dd7061 |
+   | Landsat | raster | 2000 - 2020 | 30m | https://earthexplorer.usgs.gov/ |
 
 
 ### 4. 研究方法 & 研究计划（1页）（Dong）
-1. 植被面积变化 LandSat + GLC_FCS30-2020
-2. NDVI 变化分析（现成的）
-3. 提取物候信息，LandSat + GLC_FCS30-2020
-   1. NDVI 一年曲线 拟合 模型 
-4. 公园分类（基于矢量数据）
-   1. 面积 
-   2. 根据周边的建筑物 城市公园和自然公园 
-   3. 人口密度 
+1. 公园数据预处理及分类
+   1. 根据公园矢量边界计算面积，并舍去面积小于指定阈值的公园
+   2. 结合 Landsat 影像数据 ：根据公园周边建筑物分布（例如归一化建筑物指数）划分城市公园和自然公园
+   3. 结合人口密度数据 ：分析公园潜在的效益及受益人群
+2. 植被面积变化分析
+   1. 利用 Landsat 和 GLC_FCS30-2020 数据，计算植被面积变化
+   2. 利用 NDVI 数据，分析植被变化趋势
+3. 物候信息提取
+   1. 利用 Landsat 和 GLC_FCS30-2020 数据计算 NDVI 数据，并拟合物候模型提取公园植被物候
 
 ### Report （Li）
+
 ### Docs & PPT（Yao & Pan） 
+
 ## References
 1. Examining Vegetation Change and Associated Spatial Patterns in Wuyishan National Park at Different Protection Levels : https://www.webofscience.com/wos/woscc/full-record/WOS:000781585600001
 2. 2013~2023深圳湾红树林的分布变化 : https://www.hanspub.org/journal/paperinformation?paperid=95206
